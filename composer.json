@@ -1,0 +1,59 @@
+{
+  "name": "niladam/pagination-plugin",
+  "description": "🚀Official Pagination Plugin For Salette",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Madalin Tache",
+      "email": "niladam@gmail.com"
+    },
+    {
+      "name": "Catalin Pruna",
+      "email": "prunacatalin.costin@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4 < 8.0",
+    "ext-json": "*",
+    "niladam/salette" : "^1.0"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.75",
+    "pestphp/pest": "^1.23",
+    "pestphp/pest-plugin-parallel": "^1.2",
+    "phpstan/phpstan": "^2.1",
+    "phpunit/phpunit": "^9",
+    "squizlabs/php_codesniffer": "^3.12",
+    "illuminate/collections": "^8.83"
+  },
+  "suggest": {
+    "illuminate/collections": "Used to provide LazyCollections via the collect() method on paginators."
+  },
+  "autoload": {
+    "psr-4": {
+      "Salette\\PaginationPlugin\\": "src/",
+      "Salette\\PaginationPlugin\\Tests\\": "tests/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Salette\\PaginationPlugin\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "ergebnis/composer-normalize": true,
+      "pestphp/pest-plugin": true
+    }
+  },
+  "scripts": {
+    "cs": [
+      "@cs:check",
+      "@cs:fix"
+    ],
+    "cs:check": "phpcs src",
+    "cs:fix": "php-cs-fixer fix src --using-cache=no",
+    "pstan": "phpstan analyse",
+    "test": "./vendor/bin/pest -p"
+  }
+}
