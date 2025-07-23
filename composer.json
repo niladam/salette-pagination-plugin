@@ -3,14 +3,21 @@
   "description": "🚀Official Pagination Plugin For Salette",
   "license": "MIT",
   "authors": [
-    {
-      "name": "Madalin Tache",
-      "email": "niladam@gmail.com"
-    },
-    {
-      "name": "Catalin Pruna",
-      "email": "prunacatalin.costin@gmail.com"
-    }
+        {
+            "name": "Sam Carré",
+            "email": "29132017+Sammyjo20@users.noreply.github.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Madalin Tache",
+            "email": "niladam@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Catalin Pruna",
+            "email": "prunacatalin.costin@gmail.com",
+            "role": "Developer"
+        }
   ],
   "require": {
     "php": ">=7.4 < 8.0",
