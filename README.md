@@ -18,4 +18,4 @@ The original plugin requires PHP 8+, but this version was backported to support 
 You can install this plugin via Composer:
 
 ```bash
-composer require nidalam/salette-pagination-plugin
+composer require niladam/salette-pagination-plugin
