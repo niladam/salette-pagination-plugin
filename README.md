@@ -1,4 +1,4 @@
-# Pagination Plugin for Saloon v3 (PHP 7.4)
+# Pagination Plugin for Salette  (PHP 7.4)
 
 This is a **translated and adapted** version of the official [Saloon Pagination Plugin](https://github.com/saloonphp/pagination-plugin), made compatible with **PHP 7.4**.
 
